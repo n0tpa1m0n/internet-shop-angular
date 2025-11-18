@@ -28,12 +28,12 @@ header.header{
           border-bottom: 1px solid transparent;
 
           &.active{
-            border-bottom-color:$base-text-color
+            border-bottom-color:$green-text-color
           }
           a{
 
             font-size: 16px;
-            color:$base-text-color;
+            color:$green-text-color;
             cursor:pointer;
             text-decoration: none;
           }
@@ -45,7 +45,7 @@ header.header{
 text-decoration: none;
     margin-right:59px;
       font-size: 16px;
-color:$base-text-color;
+color:$green-text-color;
     }
     .header-top-actions{
       display:flex;
@@ -68,7 +68,7 @@ color:$base-text-color;
           font-family: 'Monserrat',sans-serif;
           font-weight: 400;
           font-size:9px;
-          color:$base-text-color;
+          color:$green-text-color;
           border-radius: 50%;;
           background: #B6D5B9;
         }
@@ -96,7 +96,7 @@ color:$base-text-color;
           border-bottom: 1px solid transparent;
 
           &.active{
-            border-bottom-color:$base-text-color
+            border-bottom-color:$green-text-color
           }
           a{
             font-size:16px;
@@ -111,11 +111,11 @@ color:$base-text-color;
     .header-bottom-search{
       position:relative;
       input{
-        border:1px solid $base-text-color;
+        border:1px solid $green-text-color;
         border-radius: 30px;
         padding: 10px 10px 10px 43px;
         font-size: 16px;
-        color: $base-text-color;
+        color: $green-text-color;
         width: 214px;
         height: 41px;
         box-sizing: border-box;
