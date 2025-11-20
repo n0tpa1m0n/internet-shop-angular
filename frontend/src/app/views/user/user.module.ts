@@ -17,7 +17,7 @@ import {SharedModule} from "primeng/api";
     ReactiveFormsModule,
     CommonModule,
     UserRoutingModule,
-    SharedModule
+    // SharedModule
   ]
 })
 export class UserModule { }

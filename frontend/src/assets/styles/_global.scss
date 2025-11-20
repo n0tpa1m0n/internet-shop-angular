@@ -19,7 +19,19 @@ html, body{
   font-size: 14px;
   color: $gray-text-color;
 }
-
+.small-input{
+  border:1px solid #6CAC72;
+  border-radius: 5px;
+  text-align: center;
+  padding:2px;
+  box-sizing: border-box;
+  width:40px;
+  height: 28px;
+  font-family: 'Monserrat',sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: $green-text-color;
+}
 .button{
 text-align: center;
 padding: 15px;
@@ -37,7 +49,10 @@ color: #FFFFFF;
     cursor: not-allowed;
   }
 }
-
+a.button{
+  text-decoration: none;
+  display: inline-block;
+}
 
 .mat-menu-item{
   font-family: "Monserrat",sans-serif;
